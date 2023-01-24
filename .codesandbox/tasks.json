@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "dev": {
+      "name": "Start bundler server",
+      "command": "cd bundler && yarn dev",
+      "runAtStart": true
+    },
+    "dev:client": {
+      "name": "Start client server",
+      "command": "cd client && yarn dev",
+      "runAtStart": true
+    }
+  }
+}

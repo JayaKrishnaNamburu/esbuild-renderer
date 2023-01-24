@@ -1,0 +1,11 @@
+body {
+  margin: 0px;
+}
+
+.layout {
+  display: flex;
+}
+
+.layout > div {
+  width: 100% !important;
+}
